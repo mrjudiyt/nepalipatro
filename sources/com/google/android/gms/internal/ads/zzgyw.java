@@ -1,0 +1,44 @@
+package com.google.android.gms.internal.ads;
+
+/* compiled from: com.google.android.gms:play-services-ads@@22.5.0 */
+public final class zzgyw extends zzgtz implements zzgvk {
+    /* access modifiers changed from: private */
+    public static final zzgyw zzb;
+    private int zzd;
+    private int zze;
+    private zzgsr zzf;
+    private zzgsr zzg;
+
+    static {
+        zzgyw zzgyw = new zzgyw();
+        zzb = zzgyw;
+        zzgtz.zzaU(zzgyw.class, zzgyw);
+    }
+
+    private zzgyw() {
+        zzgsr zzgsr = zzgsr.zzb;
+        this.zzf = zzgsr;
+        this.zzg = zzgsr;
+    }
+
+    /* access modifiers changed from: protected */
+    public final Object zzb(int i10, Object obj, Object obj2) {
+        int i11 = i10 - 1;
+        if (i11 == 0) {
+            return (byte) 1;
+        }
+        if (i11 == 2) {
+            return zzgtz.zzaR(zzb, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001င\u0000\u0002ည\u0001\u0003ည\u0002", new Object[]{"zzd", "zze", "zzf", "zzg"});
+        } else if (i11 == 3) {
+            return new zzgyw();
+        } else {
+            if (i11 == 4) {
+                return new zzgyv((zzgxt) null);
+            }
+            if (i11 != 5) {
+                return null;
+            }
+            return zzb;
+        }
+    }
+}

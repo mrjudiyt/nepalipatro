@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.gms.ads.nativead.NativeAdView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:id="@+id/flutter_native_ad_unified_native_ad" android:background="@color/ad_card_background_dark" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:padding="@dimen/dp_8" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dp_64">
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="@dimen/dp_64" android:layout_weight="1">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/text_xxsmall" android:textColor="@color/grey_500" android:id="@+id/flutter_native_ad_advertiser" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_4" android:text="" android:layout_weight="1" android:fontFamily="Roboto lol"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <com.google.android.gms.ads.nativead.MediaView android:id="@+id/flutter_native_ad_media" android:visibility="visible" android:layout_width="match_parent" android:layout_height="225dp" android:scaleType="fitXY" android:adjustViewBounds="true"/>
+            <TextView android:textSize="@dimen/text_normal" android:textStyle="bold" android:textColor="@color/grey_500" android:id="@+id/flutter_native_ad_body" android:paddingLeft="@dimen/dp_8" android:paddingTop="@dimen/dp_8" android:paddingRight="@dimen/dp_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2"/>
+            <LinearLayout android:paddingTop="@dimen/dp_4" android:paddingBottom="@dimen/dp_4" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="7">
+                <LinearLayout android:gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <ImageView android:layout_gravity="center" android:id="@+id/flutter_native_ad_icon" android:layout_width="30dp" android:layout_height="@dimen/dp_32" android:layout_marginTop="@dimen/dp_8" android:layout_marginBottom="@dimen/dp_8" android:contentDescription="@string/nepali_patro" android:layout_marginStart="@dimen/dp_8" android:layout_marginEnd="@dimen/dp_8" android:backgroundTint="@color/red_100"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="4.5">
+                    <TextView android:textSize="@dimen/text_xsmall" android:textColor="@color/grey_400" android:gravity="center_vertical" android:id="@+id/flutter_native_ad_headline" android:layout_width="match_parent" android:layout_height="match_parent" android:text="" android:maxLines="2"/>
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="32dp" android:layout_weight="1.5">
+                    <Button android:textSize="8sp" android:layout_gravity="end" android:id="@+id/flutter_native_ad_call_to_action" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_xxxsmall" android:textColor="#ffffff" android:gravity="center" android:layout_gravity="start" android:id="@+id/flutter_native_ad_attribution" android:background="#ffcc66" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ad"/>
+    </RelativeLayout>
+</com.google.android.gms.ads.nativead.NativeAdView>

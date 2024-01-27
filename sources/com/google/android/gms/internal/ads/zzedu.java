@@ -1,0 +1,22 @@
+package com.google.android.gms.internal.ads;
+
+import android.app.Activity;
+import android.content.DialogInterface;
+import com.google.android.gms.ads.internal.overlay.zzl;
+
+/* compiled from: com.google.android.gms:play-services-ads@@22.5.0 */
+public final /* synthetic */ class zzedu implements DialogInterface.OnClickListener {
+    public final /* synthetic */ zzedz zza;
+    public final /* synthetic */ Activity zzb;
+    public final /* synthetic */ zzl zzc;
+
+    public /* synthetic */ zzedu(zzedz zzedz, Activity activity, zzl zzl) {
+        this.zza = zzedz;
+        this.zzb = activity;
+        this.zzc = zzl;
+    }
+
+    public final void onClick(DialogInterface dialogInterface, int i10) {
+        this.zza.zzl(this.zzb, this.zzc, dialogInterface, i10);
+    }
+}

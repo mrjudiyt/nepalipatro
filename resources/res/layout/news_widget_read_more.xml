@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:textColor="@color/grey_800" android:gravity="center" android:id="@+id/news_widget_read_more" android:padding="@dimen/dp_16" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Read More Stories"/>

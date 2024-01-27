@@ -1,0 +1,21 @@
+<svg width="389" height="210" viewBox="0 0 389 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_961_825" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="389" height="210">
+<path d="M0 0H389V210H0V0Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_961_825)">
+<g opacity="0.2" filter="url(#filter0_f_961_825)">
+<circle cx="-7" cy="59" r="55" fill="#FF8862"/>
+<circle cx="390.5" cy="144.5" r="60.5" fill="#FFE895"/>
+<path d="M222.5 141C222.5 155.359 207.859 170 193.5 170C179.141 170 165 155.359 165 141C165 126.641 185 104.5 193.5 89C203 99.5 222.5 126.641 222.5 141Z" fill="#6CC0FF"/>
+</g>
+<path d="M-91 170.853C1.3227 182.145 187.094 197.953 216.93 152.785C221.809 145.822 226.5 131.895 212.989 112.134C200.413 92.1625 194.774 83.0628 192.305 79.0328C191.491 77.704 189.492 77.7226 188.699 79.0641C185.101 85.1519 176.373 99.2922 165.702 112.134C151.629 129.072 155.006 146.01 163.45 156.738C181.465 178.192 202.856 167.465 279.417 171.982C355.977 176.499 510.223 179.886 544 175.369" stroke="black" stroke-width="2"/>
+<path d="M163 144.5C168.412 141.034 175.859 136.977 191.302 142.424C208.075 148.34 216.116 145.89 221 142.424" stroke="black" stroke-width="2" stroke-linecap="round"/>
+</g>
+<defs>
+<filter id="filter0_f_961_825" x="-82" y="-16" width="553" height="241" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur_961_825"/>
+</filter>
+</defs>
+</svg>

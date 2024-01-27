@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.gms.ads.nativead.NativeAdView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:id="@+id/flutter_native_ad_unified_native_ad" android:background="@color/ad_background_light" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/text_xxxsmall" android:textColor="#ffffff" android:gravity="center" android:layout_gravity="start" android:id="@+id/flutter_native_ad_attribution" android:background="#ffcc66" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ad"/>
+        <LinearLayout android:orientation="vertical" android:padding="@dimen/dp_8" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/dp_64">
+                <ImageView android:id="@+id/flutter_native_ad_icon" android:layout_width="@dimen/dp_48" android:layout_height="@dimen/dp_48" android:layout_marginLeft="@dimen/dp_8" android:layout_marginTop="@dimen/dp_8" android:layout_marginRight="@dimen/dp_16" android:layout_marginBottom="@dimen/dp_8" android:contentDescription="@string/nepali_patro" android:layout_marginStart="@dimen/dp_8" android:layout_marginEnd="@dimen/dp_16"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="@dimen/dp_64" android:layout_weight="1">
+                    <TextView android:textColor="@color/grey_800" android:id="@+id/flutter_native_ad_headline" android:layout_width="match_parent" android:layout_height="wrap_content" android:text=""/>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/text_xxsmall" android:textColor="@color/grey_500" android:id="@+id/flutter_native_ad_advertiser" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_4" android:text="" android:layout_weight="1"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <com.google.android.gms.ads.nativead.MediaView android:id="@+id/flutter_native_ad_media" android:visibility="visible" android:layout_width="match_parent" android:layout_height="140dp" android:adjustViewBounds="true"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/text_xsmall" android:textColor="@color/grey_500" android:ellipsize="end" android:id="@+id/flutter_native_ad_body" android:paddingLeft="@dimen/dp_16" android:paddingTop="@dimen/dp_8" android:paddingRight="@dimen/dp_16" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLines="3" android:layout_weight="4"/>
+                <Button android:textSize="12sp" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/flutter_native_ad_call_to_action" android:visibility="visible" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp_4" android:layout_weight="1" android:layout_marginEnd="@dimen/dp_4"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</com.google.android.gms.ads.nativead.NativeAdView>

@@ -1,0 +1,122 @@
+<html>
+<head>
+<div class="row panel panel-default" style="padding:10px">
+<div class="row">
+<div class="col-lg-5 col-md-5 col-sm-5 col-xs-16">
+<h2>FAQ</h2>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div id="accordion">
+<h3>My Widget and Sticky Notification freezes Date and Time and
+hangs, How do I fix ?</h3>
+<div>
+<p>When free memory on android device becomes low, Android
+automatically kills background applications to free memory, in such
+cases widgets might stop working. Please click on the widget once,
+it will start working after that.
+<p>If date on Widget or Notification bar or Status bar does not
+update, and if it happens repeatedly, it is because background
+process responsible for these updates are being killed
+automatically or manually through the use of apps like Clean
+Master, DU Booster, Omni Booster within Omni Swipe. Huawei phones
+have built-in function to kill background apps as well.
+<p>Depending upon which apps you use in your mobile phone, please go
+through following steps to put Nepali Patro in the app's ignore
+list so that the phone does not kill background process of Nepali
+Patro which updates widget and notification dates.
+<p>
+If you use Clean Master:<br/> In Clean Master, Go to Settings,
+click on "Phone Boost" - "Ignore List" - "Task". Click on "+". In
+the "Add to Ignore List", click on "Add" button besides Nepali
+Patro.<br/> For Verification, you should see "Nepali Patro" in the
+"Ignore List".<br/>
+<br/> If you use DU Booster:<br/> In DU Booster, click on "Phone
+Boost", scroll to find Nepali Patro, click on Nepali Patro, click
+on "Add to Ignore List".<br/> For verification, you can click on
+menu (icon with three dots), click on "Ignore List" - you should
+see Nepali Patro on the list.<br/>
+<br/> If you use Omni Swipe:<br/> It has Omni Booster which kills
+background apps:<br/> In Omni Swipe, click on "Booster", In "Apps
+excluded while boosting", select Nepali Patro - a small tick mark
+should show up on Nepali Patro icon.<br/> For Verification, you
+should see "Nepali Patro" in the "Apps excluded while boosting"
+list.<br/>
+<br/> If you use 360 Security - Antivirus Boost:<br/> In "360
+Security" goto "Settings", go to section "Boost and Power Saver",
+click on "Boost Safe List", click on "Add" button, scroll to find
+Nepali Patro, put up a tick, click on "Confirm". Now you should see
+"Nepali Patro" in "Boost Safe List".<br/>
+<br/> If you have a phone manufactured by Huawei: Huawei phones
+have built-in function to kill background apps:<br/> Remedy: In
+"Android Settings" on a Huawei phone, Click on "Protected apps".
+Scroll to find Nepali Patro, toggle the switch besides it to ON.<br/>
+For Verification, you should see "Nepali Patro" in the "Protected
+apps" list.<br/>
+<br/> If you have a phone manufactured by Xiaomi: All Xiaomi
+phones like MI, Redmi have built-in function which by default kill
+background apps when you lock or when phone goes blank. And any
+widgets stops working unless you click on widget or run the app:<br/>
+Remedy: In "Android Settings" on a Xiaomi phone, Click on
+"Permissions", click on “Autostart”. Nepalipatro should be listed
+under "xx apps can autostart". If it's not, in "xx apps aren't
+allowed to autostart", scroll to Nepali Patro and switch it on.<br/>
+<br/> For Verification, you should see "Nepali Patro" in the "xx
+apps can autostart" list.<br/>
+<br/> After that, dates in Nepali Patro widgets and Notification
+bar should update without a hitch.<br/>
+<br/> If you still have any issues or use other apps that kills
+background apps, please let us know so that we can guide you to
+help with that app to put Nepali Patro in their Ignore List.
+</p>
+</div>
+<h3>How can I enable and disable Addons?</h3>
+<div>
+<p>In Nepali Patro app, go to settings (three dots menu on top
+right), here you can enable/ disable addons like Load Shedding and
+News.</p>
+</div>
+<h3>When will be the new Bikram Sambat (BS) calendar published?</h3>
+<div>
+<p>This happens after "Panchanga Nirnayak Samiti" approves the
+calendar for upcoming year, which usually happens during 1st - 2nd
+week of Falgun month.</p>
+</div>
+<h3>Time on Nepali Patro App show different than actual on my device</h3>
+<div>
+<p>This issue may be related with system time zone settings. Kindly
+go through date and time settings on your device and set correct
+timezone. For example, if you are in Nepal, set it to
+"Asia/Kathmandu" or "+05:45"</p>
+</div>
+<h3>Can I have other Nepali Utility like FM Radio, Nepali Conversion
+Tools, Daily Gold and Silver Rates, Directory etc in Nepali Patro
+App?</h3>
+<div>
+<p>Nepali Patro Team has developed another app called "Nepal
+Streams" which has features for streaming FM radio stations, Load
+Shedding, Online News, Unit Converter, Bullion rates, Directory,
+EMI Calculator etc. The unique feature there is that you can view
+Load Shedding in Notification bar for easy access. Give it a try.
+https://play.google.com/store/apps/details?id=com.nepalstreams</p>
+</div>
+<h3>How do I correctly rate App in Play Store?</h3>
+<div>
+<p>
+Google Play star rating system values are:<br/> 1 * Hated it, <br/>
+2 * Disliked it, <br/> 3 * It's OK, <br/> 4 * Liked it, <br/> 5
+* Loved it.<br/>
+<br/> गुगल प्लेमा तारा दिने तरिका: <br/> 1 * बिलकुलै मन परेन <br/>
+2 * मन परेन <br/> 3 * ठिकै छ <br/> 4 * मन पर्याे<br/> 5 *
+असाध्यै मन पर्याे﻿ ।<br/>
+</p>
+</div>
+</div>
+</div>
+<br/>
+<br/>
+<br/>
+</div>
+<script type="text/javascript" src="/pagespeed_static/js_defer.pbrP1whUgE.js"></script></body>
+</html>

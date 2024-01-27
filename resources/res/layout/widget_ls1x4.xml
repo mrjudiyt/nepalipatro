@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/widget1x4" android:background="@drawable/widget_bg" android:layout_width="match_parent" android:layout_height="80dp" android:baselineAligned="false">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@+id/indication_group1" style="@style/LSWidgetIndicatorStyle"/>
+        <FrameLayout android:id="@+id/indication_group2" style="@style/LSWidgetIndicatorStyle"/>
+        <FrameLayout android:id="@+id/indication_group3" style="@style/LSWidgetIndicatorStyle"/>
+        <FrameLayout android:id="@+id/indication_group4" style="@style/LSWidgetIndicatorStyle"/>
+        <FrameLayout android:id="@+id/indication_group5" style="@style/LSWidgetIndicatorStyle"/>
+        <FrameLayout android:id="@+id/indication_group6" style="@style/LSWidgetIndicatorStyle"/>
+        <FrameLayout android:id="@+id/indication_group7" style="@style/LSWidgetIndicatorStyle"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/ls_group1" android:text="1" style="@style/LSWidgetStyle"/>
+        <TextView android:id="@+id/ls_group2" android:text="2" style="@style/LSWidgetStyle"/>
+        <TextView android:id="@+id/ls_group3" android:text="3" style="@style/LSWidgetStyle"/>
+        <TextView android:id="@+id/ls_group4" android:text="4" style="@style/LSWidgetStyle"/>
+        <TextView android:id="@+id/ls_group5" android:text="5" style="@style/LSWidgetStyle"/>
+        <TextView android:id="@+id/ls_group6" android:text="6" style="@style/LSWidgetStyle"/>
+        <TextView android:id="@+id/ls_group7" android:text="7" style="@style/LSWidgetStyle"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/time_group1" style="@style/LSWidgetTimeRemainingStyle"/>
+        <TextView android:id="@+id/time_group2" style="@style/LSWidgetTimeRemainingStyle"/>
+        <TextView android:id="@+id/time_group3" style="@style/LSWidgetTimeRemainingStyle"/>
+        <TextView android:id="@+id/time_group4" style="@style/LSWidgetTimeRemainingStyle"/>
+        <TextView android:id="@+id/time_group5" style="@style/LSWidgetTimeRemainingStyle"/>
+        <TextView android:id="@+id/time_group6" style="@style/LSWidgetTimeRemainingStyle"/>
+        <TextView android:id="@+id/time_group7" style="@style/LSWidgetTimeRemainingStyle"/>
+    </LinearLayout>
+</LinearLayout>

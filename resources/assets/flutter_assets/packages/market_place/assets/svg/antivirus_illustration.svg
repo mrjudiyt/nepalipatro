@@ -1,0 +1,21 @@
+<svg width="389" height="210" viewBox="0 0 389 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_961_812" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="389" height="210">
+<rect width="389" height="210" fill="white"/>
+</mask>
+<g mask="url(#mask0_961_812)">
+<g opacity="0.2" filter="url(#filter0_f_961_812)">
+<circle cx="-7" cy="59" r="55" fill="#FF8862"/>
+<circle cx="390.5" cy="144.5" r="60.5" fill="#FFE895"/>
+<circle cx="194.5" cy="128.5" r="23.5" fill="#FFC700"/>
+</g>
+<path d="M-52 172C5.5 178.333 134.9 187.2 192.5 172C194.396 171.5 211.647 163.69 222.628 154.559C230.193 148.268 231.5 138.033 231.5 128.195V89.7597C231.5 86.8385 228.532 85.0291 225.896 86.2867C218.935 89.6069 210.818 91.643 196.344 80.3275C194.713 79.052 192.381 79.1256 190.843 80.512C184.105 86.5843 175.549 91.5909 160.983 86.1613C158.181 85.1168 155 87.0524 155 90.0429V126.996C155 137.625 156.028 148.899 163.913 156.027C174.113 165.246 191.306 173.093 208.5 175.5C248.5 182.455 385.2 189.9 512 175.5" stroke="black" stroke-width="2"/>
+<path d="M183.5 127L189.5 134L207 119" stroke="black" stroke-width="2" stroke-linecap="round"/>
+</g>
+<defs>
+<filter id="filter0_f_961_812" x="-82" y="-16" width="553" height="241" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur_961_812"/>
+</filter>
+</defs>
+</svg>

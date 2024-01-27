@@ -1,0 +1,26 @@
+package com.google.android.gms.auth;
+
+import android.os.Bundle;
+import android.os.IBinder;
+import com.google.android.gms.internal.auth.zze;
+
+/* compiled from: com.google.android.gms:play-services-auth-base@@18.0.4 */
+final class zzh implements zzk {
+    final /* synthetic */ String zza;
+    final /* synthetic */ Bundle zzb;
+
+    zzh(String str, Bundle bundle) {
+        this.zza = str;
+        this.zzb = bundle;
+    }
+
+    public final /* bridge */ /* synthetic */ Object zza(IBinder iBinder) {
+        Bundle zzd = zze.zzb(iBinder).zzd(this.zza, this.zzb);
+        Object unused = zzl.zzj(zzd);
+        String string = zzd.getString("Error");
+        if (zzd.getBoolean("booleanResult")) {
+            return null;
+        }
+        throw new GoogleAuthException(string);
+    }
+}
