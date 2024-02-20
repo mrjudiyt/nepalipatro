@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
-    <FrameLayout android:background="@drawable/round_corner_news_widget_outer" android:padding="@dimen/dp_4" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/dp_20">
-        <ListView android:id="@+id/feedsListView" android:background="@drawable/round_corner_news_widget_inner" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="#59ffffff" android:dividerHeight="1dp"/>
-    </FrameLayout>
-    <ImageView android:id="@+id/feed_icon" android:layout_width="@dimen/dp_32" android:layout_height="@dimen/dp_32" android:src="@mipmap/ic_launcher" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:contentDescription="@string/nepali_patro" android:layout_alignParentEnd="true"/>
-</RelativeLayout>

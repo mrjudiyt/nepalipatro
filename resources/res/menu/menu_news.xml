@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item android:id="@+id/menu_share" android:orderInCategory="100" android:title="share" app:showAsAction="always"/>
-    <item android:id="@+id/menu_copy_clipboard" android:title="Copy link to clipboard" app:showAsAction="never"/>
-    <item android:id="@+id/open_in_browser" android:title="Open in browser" app:showAsAction="never"/>
-</menu>
