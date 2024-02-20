@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="tithimap">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/resources/assets/flutter_assets/resources/assets/tithimap.zip!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
